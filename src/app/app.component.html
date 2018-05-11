@@ -1,0 +1,22 @@
+<h1>
+  Test area
+</h1>
+
+
+<p>{{message.author}}</p>
+<p>{{message.message}}</p>
+
+<input [(ngModel)]="message.author">
+<input [(ngModel)]="message.message">
+
+<button (click)="sendMsg()">Send Message</button>
+
+
+<div class="container-fluid">
+<hr/>
+<app-drawing></app-drawing>
+<hr/>
+
+<app-showing></app-showing>
+</div>
+
